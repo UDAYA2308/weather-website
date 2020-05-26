@@ -7,6 +7,7 @@ weatherForm.addEventListener('submit', (eve) => {
 
     eve.preventDefault()
     address.textContent = 'loading...'
+    forecast.textContent = ''
 
 
     const location = search.value
